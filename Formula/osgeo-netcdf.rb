@@ -51,7 +51,7 @@ class OsgeoNetcdf < Formula
   resource "fortran" do
     url "https://www.unidata.ucar.edu/downloads/netcdf/ftp/netcdf-fortran-4.5.2.tar.gz"
     mirror "https://www.gfd-dennou.org/arch/netcdf/unidata-mirror/netcdf-fortran-4.5.2.tar.gz"
-    sha256 "b959937d7d9045184e9d2040a915d94a7f4d0185f4a9dceb8f08c94b0c3304aa"
+    sha256 "fb49efac53117e7760662f9d6654d616a3a304a3bdcaf4d794dfd040ee6475b9"
   end
 
   def install
