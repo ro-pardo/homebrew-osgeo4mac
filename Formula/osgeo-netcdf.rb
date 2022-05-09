@@ -22,7 +22,7 @@ class OsgeoNetcdf < Formula
   homepage "https://www.unidata.ucar.edu/software/netcdf"
   mirror "https://www.unidata.ucar.edu/downloads/netcdf/ftp/netcdf-c-4.7.4.tar.gz"
   url "https://www.gfd-dennou.org/arch/netcdf/unidata-mirror/netcdf-c-4.7.4.tar.gz"
-  sha256 "fb49efac53117e7760662f9d6654d616a3a304a3bdcaf4d794dfd040ee6475b9"
+  sha256 "0e476f00aeed95af8771ff2727b7a15b2de353fb7bb3074a0d340b55c2bd4ea8"
 
   # revision 1
 
@@ -39,19 +39,19 @@ class OsgeoNetcdf < Formula
   resource "cxx" do
     mirror "https://www.unidata.ucar.edu/downloads/netcdf/ftp/netcdf-cxx4-4.3.1.tar.gz"
     url "https://www.gfd-dennou.org/arch/netcdf/unidata-mirror/netcdf-cxx4-4.3.1.tar.gz"
-    sha256 "fb49efac53117e7760662f9d6654d616a3a304a3bdcaf4d794dfd040ee6475b9"
+    sha256 "6a1189a181eed043b5859e15d5c080c30d0e107406fbb212c8fb9814e90f3445"
   end
 
   resource "cxx-compat" do
     mirror "https://www.unidata.ucar.edu/downloads/netcdf/ftp/netcdf-cxx-4.2.tar.gz"
     url "https://www.gfd-dennou.org/arch/netcdf/unidata-mirror/netcdf-cxx-4.2.tar.gz"
-    sha256 "fb49efac53117e7760662f9d6654d616a3a304a3bdcaf4d794dfd040ee6475b9"
+    sha256 "95ed6ab49a0ee001255eac4e44aacb5ca4ea96ba850c08337a3e4c9a0872ccd1"
   end
 
   resource "fortran" do
     mirror "https://www.unidata.ucar.edu/downloads/netcdf/ftp/netcdf-fortran-4.5.2.tar.gz"
     url "https://www.gfd-dennou.org/arch/netcdf/unidata-mirror/netcdf-fortran-4.5.2.tar.gz"
-    sha256 "fb49efac53117e7760662f9d6654d616a3a304a3bdcaf4d794dfd040ee6475b9"
+    sha256 "b959937d7d9045184e9d2040a915d94a7f4d0185f4a9dceb8f08c94b0c3304aa"
   end
 
   def install
