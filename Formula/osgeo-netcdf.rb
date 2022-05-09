@@ -45,7 +45,7 @@ class OsgeoNetcdf < Formula
   resource "cxx-compat" do
     url "https://www.unidata.ucar.edu/downloads/netcdf/ftp/netcdf-cxx-4.2.tar.gz"
     mirror "https://www.gfd-dennou.org/arch/netcdf/unidata-mirror/netcdf-cxx-4.2.tar.gz"
-    sha256 "95ed6ab49a0ee001255eac4e44aacb5ca4ea96ba850c08337a3e4c9a0872ccd1"
+    sha256 "fb49efac53117e7760662f9d6654d616a3a304a3bdcaf4d794dfd040ee6475b9"
   end
 
   resource "fortran" do
