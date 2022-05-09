@@ -8,14 +8,6 @@ class OsgeoPdfium < Formula
 
   revision 1
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "c99e8ad04cda183ba17c53c5dee0c7bfc26ad36ab0ffb24ecbcea5b93f8e2686" => :catalina
-    sha256 "c99e8ad04cda183ba17c53c5dee0c7bfc26ad36ab0ffb24ecbcea5b93f8e2686" => :mojave
-    sha256 "c99e8ad04cda183ba17c53c5dee0c7bfc26ad36ab0ffb24ecbcea5b93f8e2686" => :high_sierra
-  end
 
   keg_only "newer version of pdfium may be installed"
 

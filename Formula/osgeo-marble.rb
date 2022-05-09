@@ -8,13 +8,6 @@ class OsgeoMarble < Formula
 
   head "git://anongit.kde.org/marble"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    rebuild 1
-    sha256 "b9b28fdf6d0fbf2894f6103abffa263f05727f7b1c7ac7b5a830725a6e9243f4" => :mojave
-    sha256 "b9b28fdf6d0fbf2894f6103abffa263f05727f7b1c7ac7b5a830725a6e9243f4" => :high_sierra
-    sha256 "0e556ae04c4a72d7b5e2b486d1a3298ab81ec9d1cd3d06e056cf3820f7bdd1db" => :sierra
-  end
 
   option "with-debug", "Enable debug build type"
   option "without-tools", "Build without extra Marble Tools"

@@ -23,14 +23,6 @@ class OsgeoQscintilla2 < Formula
   url "https://www.riverbankcomputing.com/static/Downloads/QScintilla/2.11.4/QScintilla-2.11.4.tar.gz"
   sha256 "723f8f1d1686d9fc8f204cd855347e984322dd5cd727891d324d0d7d187bee20"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any
-    sha256 "106160e70896743c54ccc0ffeb5fd3bbbe986092588e0a5a7f5e500eaf895ff9" => :catalina
-    sha256 "106160e70896743c54ccc0ffeb5fd3bbbe986092588e0a5a7f5e500eaf895ff9" => :mojave
-    sha256 "106160e70896743c54ccc0ffeb5fd3bbbe986092588e0a5a7f5e500eaf895ff9" => :high_sierra
-  end
-
   revision 5
 
   # keg_only "qscintilla2 is already provided by homebrew/core"

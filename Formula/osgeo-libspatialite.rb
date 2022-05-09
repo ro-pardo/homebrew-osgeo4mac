@@ -34,14 +34,6 @@ class OsgeoLibspatialite < Formula
       sha256 "459434f5e6658d6f63d403a7795aa5b198b87fc9f55944c714180e7de662fce2"
     end
   end
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any
-    sha256 "bdf1b153bb5387bcf429f55a83758855da42b7e8f1e5488c7af19aece19ef5eb" => :catalina
-    sha256 "bdf1b153bb5387bcf429f55a83758855da42b7e8f1e5488c7af19aece19ef5eb" => :mojave
-    sha256 "bdf1b153bb5387bcf429f55a83758855da42b7e8f1e5488c7af19aece19ef5eb" => :high_sierra
-  end
-
 
   head do
     url "https://www.gaia-gis.it/fossil/libspatialite", :using => :fossil

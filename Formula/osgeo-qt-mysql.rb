@@ -8,13 +8,6 @@ class OsgeoQtMysql < Formula
 
   head "https://code.qt.io/qt/qt5.git", :branch => "5.14", :shallow => false
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any
-    sha256 "a90441a61949cc849de6119ed35e3ac42151c4ec246519fc944660adcb501208" => :catalina
-    sha256 "a90441a61949cc849de6119ed35e3ac42151c4ec246519fc944660adcb501208" => :mojave
-    sha256 "a90441a61949cc849de6119ed35e3ac42151c4ec246519fc944660adcb501208" => :high_sierra
-  end
 
   depends_on "pkg-config" => :build
   depends_on "libiconv"

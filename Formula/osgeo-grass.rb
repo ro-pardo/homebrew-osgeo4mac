@@ -26,13 +26,6 @@ class OsgeoGrass < Formula
     patch :DATA
   end
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any
-    sha256 "a7f144c886435ab9c4fab9f3096882709f00b319d476648f42a145b3531de1a7" => :catalina
-    sha256 "a7f144c886435ab9c4fab9f3096882709f00b319d476648f42a145b3531de1a7" => :mojave
-    sha256 "a7f144c886435ab9c4fab9f3096882709f00b319d476648f42a145b3531de1a7" => :high_sierra
-  end
 
   option "without-gui", "Build without WxPython interface. Command line tools still available"
   option "with-aqua", "Build with experimental Aqua GUI backend"

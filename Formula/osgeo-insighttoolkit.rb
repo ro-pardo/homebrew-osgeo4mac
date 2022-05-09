@@ -6,13 +6,6 @@ class OsgeoInsighttoolkit < Formula
 
   revision 1
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    sha256 "cc31b55d65c9b587c5b86ccc21414054baa5af82ee22dadf21fdbf609bab1f0b" => :catalina
-    sha256 "cc31b55d65c9b587c5b86ccc21414054baa5af82ee22dadf21fdbf609bab1f0b" => :mojave
-    sha256 "cc31b55d65c9b587c5b86ccc21414054baa5af82ee22dadf21fdbf609bab1f0b" => :high_sierra
-  end
-
   head "https://github.com/InsightSoftwareConsortium/ITK.git", :branch => "master"
 
   option "with-examples", "Compile and install various examples"

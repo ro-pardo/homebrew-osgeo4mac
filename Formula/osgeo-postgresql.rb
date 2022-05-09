@@ -51,12 +51,6 @@ class OsgeoPostgresql < Formula
   url "https://ftp.postgresql.org/pub/source/v12.4/postgresql-12.4.tar.bz2"
   sha256 "bee93fbe2c32f59419cb162bcc0145c58da9a8644ee154a30b9a5ce47de606cc"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    sha256 "c2ffac019bf7f8aed005fb3a0c50d2cfe30b7daf3a1edda9e415e64e0328a153" => :catalina
-    sha256 "c2ffac019bf7f8aed005fb3a0c50d2cfe30b7daf3a1edda9e415e64e0328a153" => :mojave
-    sha256 "c2ffac019bf7f8aed005fb3a0c50d2cfe30b7daf3a1edda9e415e64e0328a153" => :high_sierra
-  end
 
   #revision 1
 

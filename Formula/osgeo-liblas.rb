@@ -16,12 +16,6 @@ class OsgeoLiblas < Formula
 
   head "https://github.com/libLAS/libLAS.git", :branch => "master"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    sha256 "5df647f195369ccdcfa3199344a772ba656f66195228b7ac2bba4a3a0a116faa" => :catalina
-    sha256 "5df647f195369ccdcfa3199344a772ba656f66195228b7ac2bba4a3a0a116faa" => :mojave
-    sha256 "5df647f195369ccdcfa3199344a772ba656f66195228b7ac2bba4a3a0a116faa" => :high_sierra
-  end
 
   keg_only "other version built against older gdal is in main tap"
 

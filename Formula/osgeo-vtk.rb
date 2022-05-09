@@ -12,12 +12,6 @@ class OsgeoVtk < Formula
 
   head "https://github.com/Kitware/VTK.git", :branch => "master"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    sha256 "3f74f585a3250d6308703072c0c008d6c2405b8bb318845b29cfd65efb36610d" => :catalina
-    sha256 "3f74f585a3250d6308703072c0c008d6c2405b8bb318845b29cfd65efb36610d" => :mojave
-    sha256 "3f74f585a3250d6308703072c0c008d6c2405b8bb318845b29cfd65efb36610d" => :high_sierra
-  end
 
   # resource "FindPEGTL" do
   #   url "https://src.fedoraproject.org/rpms/vtk/raw/master/f/FindPEGTL.cmake"

@@ -30,13 +30,6 @@ class OsgeoPostgis < Formula
   url "https://github.com/postgis/postgis/archive/3.0.2.tar.gz"
   sha256 "2d4eb79ea9af1257320922a8a7d2663d37189c805746e975a5951ee6dc5ac4ef"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any
-    sha256 "1e7bd52b66279e1510b7cc700cb9f7e83b06f2b0f7a7348d99f140bb629e792b" => :catalina
-    sha256 "1e7bd52b66279e1510b7cc700cb9f7e83b06f2b0f7a7348d99f140bb629e792b" => :mojave
-    sha256 "1e7bd52b66279e1510b7cc700cb9f7e83b06f2b0f7a7348d99f140bb629e792b" => :high_sierra
-  end
 
   #revision 8 
 

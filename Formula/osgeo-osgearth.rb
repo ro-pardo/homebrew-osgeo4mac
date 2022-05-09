@@ -6,15 +6,6 @@ class OsgeoOsgearth < Formula
     :commit => "1faf43af681e22b0d3b4d0a1ada7e138cf3aac46"
   version "2.10.1"
 
-  bottle do
-    root_url "https://dl.bintray.com/homebrew-osgeo/osgeo-bottles"
-    cellar :any
-    rebuild 1
-    sha256 "0784fecac54032d20b907ff013b6d7fa23faf083981ac9d26340d61e4fe45845" => :mojave
-    sha256 "0784fecac54032d20b907ff013b6d7fa23faf083981ac9d26340d61e4fe45845" => :high_sierra
-    sha256 "0784fecac54032d20b907ff013b6d7fa23faf083981ac9d26340d61e4fe45845" => :sierra
-  end
-
   # revision 2
 
   head "https://github.com/gwaldron/osgearth.git", :branch => "master"

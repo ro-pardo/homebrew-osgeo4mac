@@ -8,13 +8,6 @@ class OsgeoPgsqlOgrFdw < Formula
     :commit => "6b0f4690e49ef4e0203252b2a87d25a173afc1ad"
   version "1.0.12"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any
-    sha256 "329908858b691a160db41b1655641a865a831284193732520b462e9318086351" => :catalina
-    sha256 "329908858b691a160db41b1655641a865a831284193732520b462e9318086351" => :mojave
-    sha256 "329908858b691a160db41b1655641a865a831284193732520b462e9318086351" => :high_sierra
-  end
 
   #revision 1
 

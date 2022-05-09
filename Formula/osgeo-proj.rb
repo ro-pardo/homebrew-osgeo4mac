@@ -23,13 +23,6 @@ class OsgeoProj < Formula
   url "https://github.com/OSGeo/PROJ/releases/download/6.3.2/proj-6.3.2.tar.gz"
   sha256 "cb776a70f40c35579ae4ba04fb4a388c1d1ce025a1df6171350dc19f25b80311"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    sha256 "729a8816d46c6f3293951bf7f68d6b6e32bb13e4c75f339a29140f44b5ffa2e7" => :catalina
-    sha256 "729a8816d46c6f3293951bf7f68d6b6e32bb13e4c75f339a29140f44b5ffa2e7" => :mojave
-    sha256 "729a8816d46c6f3293951bf7f68d6b6e32bb13e4c75f339a29140f44b5ffa2e7" => :high_sierra
-  end
-
   # revision 1
 
   # keg_only "proj is already provided by homebrew/core"

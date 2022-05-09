@@ -4,12 +4,6 @@ class OsgeoPcl < Formula
   url "https://github.com/PointCloudLibrary/pcl/archive/pcl-1.11.0.tar.gz"
   sha256 "4255c3d3572e9774b5a1dccc235711b7a723197b79430ef539c2044e9ce65954"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    sha256 "1c805512e41ce1c2b3414dba02c5bb8531b16caaa0ef97301d93a0f7fb4fac5b" => :catalina
-    sha256 "1c805512e41ce1c2b3414dba02c5bb8531b16caaa0ef97301d93a0f7fb4fac5b" => :mojave
-    sha256 "1c805512e41ce1c2b3414dba02c5bb8531b16caaa0ef97301d93a0f7fb4fac5b" => :high_sierra
-  end
 
   #revision 3
 

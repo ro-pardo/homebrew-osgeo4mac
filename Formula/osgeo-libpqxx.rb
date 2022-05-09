@@ -23,15 +23,6 @@ class OsgeoLibpqxx < Formula
   url "https://github.com/jtv/libpqxx/archive/6.4.4.tar.gz"
   sha256 "6ae3a0113a242db6bb9d998943b7cc23699652d843dab702aa06a8b9330c171a"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any
-    rebuild 1
-    sha256 "b6f75cdea345d394ccc7edb3c217165da4882506349720ff6a2e924376e72584" => :mojave
-    sha256 "b6f75cdea345d394ccc7edb3c217165da4882506349720ff6a2e924376e72584" => :high_sierra
-    sha256 "126e17a143e629fc588831651c54207c964adc6ae2e22c8ca060037e1646f952" => :sierra
-  end
-
   # revision 1
 
   head "https://github.com/jtv/libpqxx.git", :branch => "master"

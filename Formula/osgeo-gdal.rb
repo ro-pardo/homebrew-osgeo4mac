@@ -34,14 +34,6 @@ class OsgeoGdal < Formula
     depends_on "doxygen" => :build
   end
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    rebuild 1
-    sha256 "5c0cfe587fff624ed20d33db5ffbf2c7f9bc9af026a9bcecf795b1a07193925d" => :catalina
-    sha256 "5c0cfe587fff624ed20d33db5ffbf2c7f9bc9af026a9bcecf795b1a07193925d" => :mojave
-    sha256 "5c0cfe587fff624ed20d33db5ffbf2c7f9bc9af026a9bcecf795b1a07193925d" => :high_sierra
-  end
-
   # keg_only "gdal is already provided by homebrew/core"
   # we will verify that other versions are not linked
   depends_on Unlinked

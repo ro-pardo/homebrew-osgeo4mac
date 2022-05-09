@@ -51,12 +51,6 @@ class OsgeoPostgresqlAT11 < Formula
   url "https://ftp.postgresql.org/pub/source/v11.9/postgresql-11.9.tar.bz2"
   sha256 "35618aa72e0372091f923c42389c6febd07513157b4fbb9408371706afbb6635"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    sha256 "9746c2b686fc3a568f0c7062e62d517917612991832918eff4062627245701bd" => :catalina
-    sha256 "9746c2b686fc3a568f0c7062e62d517917612991832918eff4062627245701bd" => :mojave
-    sha256 "9746c2b686fc3a568f0c7062e62d517917612991832918eff4062627245701bd" => :high_sierra
-  end
 
   #revision 2
 

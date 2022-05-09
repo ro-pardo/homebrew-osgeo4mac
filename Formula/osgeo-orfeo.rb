@@ -6,14 +6,6 @@ class OsgeoOrfeo < Formula
 
   revision 2
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any
-    sha256 "b2d8e36b3f822fbfc8b7036bed3e6e0db9df8dbeb1630f287b1cce828b7fd7fc" => :catalina
-    sha256 "b2d8e36b3f822fbfc8b7036bed3e6e0db9df8dbeb1630f287b1cce828b7fd7fc" => :mojave
-    sha256 "b2d8e36b3f822fbfc8b7036bed3e6e0db9df8dbeb1630f287b1cce828b7fd7fc" => :high_sierra
-  end
-
   head "https://gitlab.orfeo-toolbox.org/orfeotoolbox/otb.git", :branch => "master"
 
   # Errors found when using ITK 5

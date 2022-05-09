@@ -8,9 +8,6 @@ class OsgeoGdalMrsid < Formula
 
   head "https://github.com/OSGeo/gdal.git", :branch => "master"
 
-  # bottle do
-  #   never
-  # end
 
   depends_on "osgeo-mrsid-sdk"
   depends_on "osgeo-gdal"

@@ -9,13 +9,6 @@ class OsgeoTaudem < Formula
 
   head "https://github.com/dtarb/TauDEM.git", :branch => "master"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any
-    sha256 "4e5d5df235413e6f3b02c1112eda3a95b5200c7e1eae640f9df0ed50db62765e" => :mojave
-    sha256 "4e5d5df235413e6f3b02c1112eda3a95b5200c7e1eae640f9df0ed50db62765e" => :high_sierra
-    sha256 "a425c679506c2f16bc90f274b96fce85973ef826d2f7b926798255ff6f65d9f3" => :sierra
-  end
 
   depends_on "cmake" => :build
   depends_on "open-mpi"

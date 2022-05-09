@@ -8,10 +8,6 @@ class OsgeoGdalOracle < Formula
 
   head "https://github.com/OSGeo/gdal.git", :branch => "master"
 
-  # bottle do
-  #   never
-  # end
-
   depends_on "osgeo-oracle-client-sdk"
   depends_on "osgeo-gdal"
 

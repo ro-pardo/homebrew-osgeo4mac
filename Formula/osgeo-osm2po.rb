@@ -13,14 +13,6 @@ class OsgeoOsm2po < Formula
 
   revision 1
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "b5721c5081b85ec5f045c631102c4e990818c42f50f56934712fa36f070d1546" => :mojave
-    sha256 "b5721c5081b85ec5f045c631102c4e990818c42f50f56934712fa36f070d1546" => :high_sierra
-    sha256 "b5721c5081b85ec5f045c631102c4e990818c42f50f56934712fa36f070d1546" => :sierra
-  end
 
   def install
     doc.install Dir["osm2po-doc/*"]

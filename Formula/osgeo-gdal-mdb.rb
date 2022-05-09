@@ -8,10 +8,6 @@ class OsgeoGdalMdb < Formula
   
   head "https://github.com/OSGeo/gdal.git", :branch => "master"
 
-  # bottle do
-  #   never (runtime JAVA version may change too much, or be different from Travis CI)
-  # end
-
   depends_on "openjdk"
   depends_on "osgeo-gdal"
   depends_on "libtiff"

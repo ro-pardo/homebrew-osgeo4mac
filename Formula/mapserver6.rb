@@ -32,13 +32,6 @@ class Mapserver6 < Formula
   url "http://download.osgeo.org/mapserver/mapserver-6.4.5.tar.gz"
   sha256 "b62c5c0cce2ea7da1d70553197926c14ef46bfb030a736e588367fc881b01a9a"
 
-  bottle do
-    root_url "https://osgeo4mac.s3.amazonaws.com/bottles"
-    rebuild 2
-    sha256 "d49321a497cc7b0826ff2febf8147dfd9428a991a45cdb1e3f2f81e0e1634d44" => :high_sierra
-    sha256 "d49321a497cc7b0826ff2febf8147dfd9428a991a45cdb1e3f2f81e0e1634d44" => :sierra
-  end
-
   # Backport patch to support compiling with gif_lib >= 5.1: https://github.com/mapserver/mapserver/pull/5144
   # Also applies a patch to build on versions of PHP5 > 5.6.25: https://github.com/mapserver/mapserver/pull/5318
   patch :DATA

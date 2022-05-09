@@ -25,14 +25,6 @@ class OsgeoPsqlodbc < Formula
 
   #revision 3
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any
-    sha256 "a9085711555601a64b30ee356643a2dfbecc7ff9ccd254c477d7977b66e0d365" => :catalina
-    sha256 "a9085711555601a64b30ee356643a2dfbecc7ff9ccd254c477d7977b66e0d365" => :mojave
-    sha256 "a9085711555601a64b30ee356643a2dfbecc7ff9ccd254c477d7977b66e0d365" => :high_sierra
-  end
-
   # revision 1
 
   head do

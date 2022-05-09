@@ -10,13 +10,6 @@ class OsgeoQtWebkit < Formula
   # from the developer: "https://github.com/annulen/webkit.git"
   head "https://github.com/qt/qtwebkit.git"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any
-    sha256 "72b7e4c0f9740a19b9c296ddf690dff0be1e89d96051084e3036466f8e768673" => :catalina
-    sha256 "72b7e4c0f9740a19b9c296ddf690dff0be1e89d96051084e3036466f8e768673" => :mojave
-    sha256 "72b7e4c0f9740a19b9c296ddf690dff0be1e89d96051084e3036466f8e768673" => :high_sierra
-  end
 
   # insert the XPC_NOESCAPE macro in the right places in xpc_array_apply and xpc_dictionary_apply
   # to match the definitions now used in the 10.14 SDK

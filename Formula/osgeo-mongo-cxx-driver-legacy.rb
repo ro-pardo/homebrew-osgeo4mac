@@ -8,13 +8,6 @@ class OsgeoMongoCxxDriverLegacy < Formula
 
   head "https://github.com/mongodb/mongo-cxx-driver.git", :branch => "releases/legacy"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any
-    sha256 "eba1f1faf4e7aa27700f0daf65ac89711162244583a609e0bafc6e88060c8056" => :catalina
-    sha256 "eba1f1faf4e7aa27700f0daf65ac89711162244583a609e0bafc6e88060c8056" => :mojave
-    sha256 "eba1f1faf4e7aa27700f0daf65ac89711162244583a609e0bafc6e88060c8056" => :high_sierra
-  end
 
   keg_only "Newer driver in homebrew core"
 

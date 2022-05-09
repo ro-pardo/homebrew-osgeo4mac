@@ -27,14 +27,6 @@ class OsgeoLibgeotiff < Formula
     :commit => "8b1a8f52bc909f86e04ceadd699db102208074a2"
   version "1.6.0"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any
-    sha256 "bcaf0e372b3a5c3875d695f34660d2efd90a728ade4960e1c7b4d9669bb29177" => :catalina
-    sha256 "bcaf0e372b3a5c3875d695f34660d2efd90a728ade4960e1c7b4d9669bb29177" => :mojave
-    sha256 "bcaf0e372b3a5c3875d695f34660d2efd90a728ade4960e1c7b4d9669bb29177" => :high_sierra
-  end
-
   #revision 3 
 
   head "https://github.com/OSGeo/libgeotiff.git", :branch => "master"

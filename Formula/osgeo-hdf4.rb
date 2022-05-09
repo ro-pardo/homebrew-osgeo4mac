@@ -12,14 +12,6 @@ class OsgeoHdf4 < Formula
   depends_on "jpeg"
   depends_on "gcc" if build.with? "fortran"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any
-    rebuild 1
-    sha256 "e9c44564bd0f3be8a6c7bb0d6f103fd64865a927a16f8ae5fc2b6a8a6e3221d7" => :mojave
-    sha256 "e9c44564bd0f3be8a6c7bb0d6f103fd64865a927a16f8ae5fc2b6a8a6e3221d7" => :high_sierra
-    sha256 "a7d7759edd6ef51195fe94a77d20a76531c83f1460139acccad37791483ca135" => :sierra
-  end
 
   resource "test_file" do
     url "https://gamma.hdfgroup.org/ftp/pub/outgoing/h4map/data/CT01_Rank6ArraysTablesAttributesGroups.hdf"

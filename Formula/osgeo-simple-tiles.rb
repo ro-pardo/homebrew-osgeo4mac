@@ -4,15 +4,6 @@ class OsgeoSimpleTiles < Formula
   url "https://github.com/propublica/simple-tiles/archive/v0.6.1.tar.gz"
   sha256 "2391b2f727855de28adfea9fc95d8c7cbaca63c5b86c7286990d8cbbcd640d6f"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any
-    rebuild 1
-    sha256 "fec2a26451465b4e4d895e2ef383b20240af7f6956d57b5ea70fd7fcf059d47e" => :mojave
-    sha256 "fec2a26451465b4e4d895e2ef383b20240af7f6956d57b5ea70fd7fcf059d47e" => :high_sierra
-    sha256 "e1d77cc94e155ce5067b5f84d3b5dc781b3f5014eab0a5d18ce77681cbb9ecaa" => :sierra
-  end
-
   revision 2
 
   head "https://github.com/propublica/simple-tiles.git", :branch => "master"

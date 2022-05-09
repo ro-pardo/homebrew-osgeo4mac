@@ -8,13 +8,6 @@ class OsgeoSix < Formula
 
   head "https://github.com/benjaminp/six.git", :branch => "master"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any_skip_relocation
-    sha256 "84f5bd6a34d8563f07531b51f13cd0783d5bfc337866d47980552daf35441122" => :catalina
-    sha256 "84f5bd6a34d8563f07531b51f13cd0783d5bfc337866d47980552daf35441122" => :mojave
-    sha256 "84f5bd6a34d8563f07531b51f13cd0783d5bfc337866d47980552daf35441122" => :high_sierra
-  end
 
   depends_on "python"
   depends_on "tcl-tk"

@@ -12,13 +12,6 @@ class OsgeoMapnik < Formula
 
   revision 2
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any
-    sha256 "c05902125ce684e762a19af922d553b3aa100206977ab14464de61438dbfca7d" => :mojave
-    sha256 "c05902125ce684e762a19af922d553b3aa100206977ab14464de61438dbfca7d" => :high_sierra
-    sha256 "c05902125ce684e762a19af922d553b3aa100206977ab14464de61438dbfca7d" => :sierra
-  end
 
   head "https://github.com/mapnik/mapnik.git", :branch => "master"
 

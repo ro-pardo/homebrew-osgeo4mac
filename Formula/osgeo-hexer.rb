@@ -8,14 +8,6 @@ class OsgeoHexer < Formula
 
   head "https://github.com/hobu/hexer.git", :branch => "master"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any
-    sha256 "949ebcb075de3dca10041016a155d53cc130e797b985c4c9a84e3ba817727762" => :catalina
-    sha256 "949ebcb075de3dca10041016a155d53cc130e797b985c4c9a84e3ba817727762" => :mojave
-    sha256 "949ebcb075de3dca10041016a155d53cc130e797b985c4c9a84e3ba817727762" => :high_sierra
-  end
-
   # Add cmath and limits headers to utils
   # Link with dl for curse on non-win32
   patch :DATA

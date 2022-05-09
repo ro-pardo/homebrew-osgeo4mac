@@ -9,15 +9,6 @@ class OsgeoLastools < Formula
 
   head "https://github.com/LAStools/LAStools.git", :branch => "master"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "d716dda8ec8ede2cf07517190456e6e3f5407d7ff5e5dbf190e6b7b310eaf1a2" => :mojave
-    sha256 "d716dda8ec8ede2cf07517190456e6e3f5407d7ff5e5dbf190e6b7b310eaf1a2" => :high_sierra
-    sha256 "d6c319e04e9c03e3ce7dfaf110e187164e8f6398c82dd71f63ed892792328a19" => :sierra
-  end
-
   option "with-wine", "Use Wine to have more support"
 
   depends_on "cmake" => :build

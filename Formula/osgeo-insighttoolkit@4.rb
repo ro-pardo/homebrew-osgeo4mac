@@ -6,13 +6,6 @@ class OsgeoInsighttoolkitAT4 < Formula
 
   revision 3
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    sha256 "1ddb7fb9794d353994d388e8e4e4408442fa2d3eef38dda01fadd6b42fb8d92a" => :catalina
-    sha256 "1ddb7fb9794d353994d388e8e4e4408442fa2d3eef38dda01fadd6b42fb8d92a" => :mojave
-    sha256 "1ddb7fb9794d353994d388e8e4e4408442fa2d3eef38dda01fadd6b42fb8d92a" => :high_sierra
-  end
-
   head "https://github.com/InsightSoftwareConsortium/ITK.git", :branch => "master"
 
   # keg_only "Testing ITK - is not linked"

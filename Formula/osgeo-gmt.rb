@@ -9,14 +9,6 @@ class OsgeoGmt < Formula
 
   revision 2
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    rebuild 1
-    sha256 "ecf434fbf0e700d50f8d5b304d0ff9d963b94c7f8b66ef65664108bc1676d66e" => :mojave
-    sha256 "ecf434fbf0e700d50f8d5b304d0ff9d963b94c7f8b66ef65664108bc1676d66e" => :high_sierra
-    sha256 "2dd8acb9ce1d0415001851bc6d24cb63be8f74a75196d3d7d7b611a38dbd1103" => :sierra
-  end
-
   depends_on "cmake" => :build
   depends_on "fftw"
   depends_on "hdf5"

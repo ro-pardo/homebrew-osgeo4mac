@@ -8,10 +8,6 @@ class OsgeoGdalEcwjp2 < Formula
 
   head "https://github.com/OSGeo/gdal.git", :branch => "master"
 
-  # bottle do
-  #   never
-  # end
-
   depends_on "osgeo-ecwjp2-sdk"
   depends_on "osgeo-gdal"
 

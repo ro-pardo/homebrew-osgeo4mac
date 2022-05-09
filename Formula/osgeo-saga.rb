@@ -14,13 +14,6 @@ class OsgeoSaga < Formula
 
   head "https://git.code.sf.net/p/saga-gis/code.git"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    sha256 "11e96aa538e00ace2a776418bea09cbabba808172487d08664b7bd0a036359b0" => :catalina
-    sha256 "11e96aa538e00ace2a776418bea09cbabba808172487d08664b7bd0a036359b0" => :mojave
-    sha256 "11e96aa538e00ace2a776418bea09cbabba808172487d08664b7bd0a036359b0" => :high_sierra
-  end
-
   keg_only "QGIS fails to load the correct SAGA version, if the latest version is in the path"
 
   option "with-pg10", "Build with PostgreSQL 10 client"

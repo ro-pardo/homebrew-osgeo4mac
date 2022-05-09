@@ -8,13 +8,6 @@ class OsgeoOgdi < Formula
 
   head "https://github.com/libogdi/ogdi.git", :branch => "master"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any
-    sha256 "ababf3d3d5a8cd1e511352707ccae78de4adb5cd16cdd6a85e1239d187b2c49d" => :catalina
-    sha256 "ababf3d3d5a8cd1e511352707ccae78de4adb5cd16cdd6a85e1239d187b2c49d" => :mojave
-    sha256 "ababf3d3d5a8cd1e511352707ccae78de4adb5cd16cdd6a85e1239d187b2c49d" => :high_sierra
-  end
 
   # depends_on "autoconf" => :build
   # depends_on "automake" => :build

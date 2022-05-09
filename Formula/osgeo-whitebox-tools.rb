@@ -7,14 +7,6 @@ class OsgeoWhiteboxTools < Formula
 
   # revision 1
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    cellar :any_skip_relocation
-    sha256 "24b5c05d0b058953e7a783f1a923be428ff1ffc27fc48a4a9bc7b120a6830809" => :catalina
-    sha256 "24b5c05d0b058953e7a783f1a923be428ff1ffc27fc48a4a9bc7b120a6830809" => :mojave
-    sha256 "24b5c05d0b058953e7a783f1a923be428ff1ffc27fc48a4a9bc7b120a6830809" => :high_sierra
-  end
-
   def install
     cp_r buildpath.to_s, prefix.to_s
     mkdir bin.to_s

@@ -24,12 +24,6 @@ class OsgeoPdal < Formula
   url "https://github.com/PDAL/PDAL/archive/2.1.0.tar.gz"
   sha256 "43ed8ba8ef143e1ded67e96ef72bb73ee133723da0320c3e4f2f87d9bfc3737c"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    sha256 "184ccc09667aec537a79e1541bc400a5ecfe8238fbfe46c9a0117ffb2a2cd9e9" => :catalina
-    sha256 "184ccc09667aec537a79e1541bc400a5ecfe8238fbfe46c9a0117ffb2a2cd9e9" => :mojave
-    sha256 "184ccc09667aec537a79e1541bc400a5ecfe8238fbfe46c9a0117ffb2a2cd9e9" => :high_sierra
-  end
 
   #revision 1
 

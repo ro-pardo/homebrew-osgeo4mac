@@ -14,12 +14,6 @@ class OsgeoSagaLts < Formula
 
   head "https://git.code.sf.net/p/saga-gis/code.git"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    sha256 "260038069d9185a8cfe5f5eafd4d496e9064cde276123eaf11b2508aadd2863c" => :catalina
-    sha256 "260038069d9185a8cfe5f5eafd4d496e9064cde276123eaf11b2508aadd2863c" => :mojave
-    sha256 "260038069d9185a8cfe5f5eafd4d496e9064cde276123eaf11b2508aadd2863c" => :high_sierra
-  end
 
   keg_only "This version is specifically to work with QGIS"
 
