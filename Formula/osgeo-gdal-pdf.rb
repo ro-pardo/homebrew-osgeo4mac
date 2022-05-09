@@ -8,13 +8,6 @@ class OsgeoGdalPdf < Formula
   
   head "https://github.com/OSGeo/gdal.git", :branch => "master"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    sha256 "3daada45817c48da90738d7b8052e2bd5fb25117e2c25c35bed2030f2b96517a" => :catalina
-    sha256 "3daada45817c48da90738d7b8052e2bd5fb25117e2c25c35bed2030f2b96517a" => :mojave
-    sha256 "3daada45817c48da90738d7b8052e2bd5fb25117e2c25c35bed2030f2b96517a" => :high_sierra
-  end
-
   depends_on "pkg-config" => :build
   depends_on "cairo"
   depends_on "fontconfig"
