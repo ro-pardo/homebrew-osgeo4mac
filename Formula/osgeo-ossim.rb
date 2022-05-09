@@ -4,13 +4,6 @@ class OsgeoOssim < Formula
   url "https://github.com/ossimlabs/ossim/archive/OrchidIsland-2.11.1.tar.gz"
   sha256 "2823d132c8da3cb57c030f72ab4c0fbf493eccac6b34c1ec7192741312a839eb"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    sha256 "2f9e74bcc0f1cc41b39279d707c168a028f8bdaeff5d4c53091d420f6a70251b" => :catalina
-    sha256 "2f9e74bcc0f1cc41b39279d707c168a028f8bdaeff5d4c53091d420f6a70251b" => :mojave
-    sha256 "2f9e74bcc0f1cc41b39279d707c168a028f8bdaeff5d4c53091d420f6a70251b" => :high_sierra
-  end
-
   revision 1
 
   head "https://github.com/ossimlabs/ossim.git", :branch => "master"
