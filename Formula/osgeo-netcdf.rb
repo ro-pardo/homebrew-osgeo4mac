@@ -22,7 +22,7 @@ class OsgeoNetcdf < Formula
   homepage "https://www.unidata.ucar.edu/software/netcdf"
   url "https://www.unidata.ucar.edu/downloads/netcdf/ftp/netcdf-c-4.7.4.tar.gz"
   mirror "https://www.gfd-dennou.org/arch/netcdf/unidata-mirror/netcdf-c-4.7.4.tar.gz"
-  sha256 "0e476f00aeed95af8771ff2727b7a15b2de353fb7bb3074a0d340b55c2bd4ea8"
+  sha256 " fb49efac53117e7760662f9d6654d616a3a304a3bdcaf4d794dfd040ee6475b9"
 
   # revision 1
 
