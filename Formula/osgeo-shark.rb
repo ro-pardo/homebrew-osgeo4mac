@@ -8,7 +8,7 @@ class OsgeoShark < Formula
 
   head "https://github.com/Shark-ML/Shark.git", :branch => "master"
 
-  bottle :disable, "needs to be rebuilt with latest boost"
+  #bottle :disable, "needs to be rebuilt with latest boost"
 
   depends_on "cmake" => :build
   depends_on "boost"
