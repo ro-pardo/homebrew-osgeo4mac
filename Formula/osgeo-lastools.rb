@@ -15,7 +15,8 @@ class OsgeoLastools < Formula
 
   if build.with? "wine"
     depends_on "wine"
-    depends_on :x11
+#    depends_on :x11
+    depends_on "libx11"
   end
 
   def install
