@@ -29,7 +29,7 @@ class OsgeoPcl < Formula
   depends_on "libpng"
   depends_on "libpcap"
   depends_on "doxygen"
-  depends_on "szip"
+  depends_on "zip"
   depends_on "libxml2"
   depends_on "osgeo-proj"
   depends_on "osgeo-netcdf"

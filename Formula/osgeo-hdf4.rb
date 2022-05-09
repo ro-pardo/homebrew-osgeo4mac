@@ -8,7 +8,7 @@ class OsgeoHdf4 < Formula
 
   depends_on "cmake" => :build
   depends_on "pkg-config" => :build
-  depends_on "szip" => :recommended
+  depends_on "zip" => :recommended
   depends_on "jpeg"
   depends_on "gcc" if build.with? "fortran"
 
